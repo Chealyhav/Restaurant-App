@@ -1,6 +1,6 @@
-import { ProductPopupProps } from "@/app/api/interface";
+import { ProductPopupProps } from "@/api/interface";
 import Image from "next/image";
-import { getStrapiMedia } from "@/app/api/api-helpers";
+import { getStrapiMedia } from "@/api/api-helpers";
 
 export const Products: React.FC<ProductPopupProps> = ({ product }) => {
   const mediaProduct = getStrapiMedia(product?.src?.data?.attributes?.url);

@@ -5,12 +5,12 @@ import {
   IRespone,
   IRespones,
   ProductProps,
-} from "@/app/api/interface";
+} from "@/api/interface";
 import Image from "next/image";
 import React from "react";
 import { Element, Link } from "react-scroll";
 import { ProductList } from "./products/products-list";
-import { getStrapiMedia } from "@/app/api/api-helpers";
+import { getStrapiMedia } from "@/api/api-helpers";
 
 export interface SectionProps {
   product: IRespones<ProductProps>;

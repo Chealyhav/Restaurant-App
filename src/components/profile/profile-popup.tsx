@@ -1,12 +1,12 @@
 "use client";
-import { API_URL } from "@/app/api/urls";
+import { API_URL } from "@/api/urls";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { Fragment } from "react";
 import Link from "next/link";
 import { PhoneIcon } from "@heroicons/react/24/outline";
-import { HeaderProps, IRespone } from "@/app/api/interface";
+import { HeaderProps, IRespone } from "@/api/interface";
 import cl from "classnames";
 import {
   FaceBookIcon,
@@ -14,7 +14,7 @@ import {
   TelegramIcon,
   TiktokIcon,
 } from "../socials-Icon";
-import { getStrapiMedia } from "@/app/api/api-helpers";
+import { getStrapiMedia } from "@/api/api-helpers";
 
 export const ProfilePopup: React.FC<{
   isOpen: boolean;

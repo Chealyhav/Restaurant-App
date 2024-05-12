@@ -1,4 +1,4 @@
-import { ProductPopupProps } from "@/app/api/interface";
+import { ProductPopupProps } from "@/api/interface";
 import { Dialog, Transition } from "@headlessui/react";
 import { PhoneIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/solid";
@@ -11,7 +11,7 @@ import {
   TelegramIcon,
   TiktokIcon,
 } from "../socials-Icon";
-import { getStrapiMedia } from "@/app/api/api-helpers";
+import { getStrapiMedia } from "@/api/api-helpers";
 
 export const ProductPopup: React.FC<ProductPopupProps> = ({
   isOpen,

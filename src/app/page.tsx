@@ -6,9 +6,9 @@ import {
   IRespone,
   IRespones,
   ProductProps,
-} from "./api/interface";
+} from "../api/interface";
 import { Navigation, Sections } from "@/components/scrolls";
-import { DataCategory, DataContent, DataProfile } from "./api/fetch-api";
+import { DataCategory, DataContent, DataProfile } from "../api/fetch-api";
 
 const Restaurant: React.FC = async () => {
   const data = await DataCategory();

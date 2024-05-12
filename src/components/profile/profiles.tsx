@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { ProfilePopup } from "./profile-popup";
-import { HeaderProps, IRespone } from "@/app/api/interface";
-import { getStrapiMedia } from "@/app/api/api-helpers";
+import { HeaderProps, IRespone } from "@/api/interface";
+import { getStrapiMedia } from "@/api/api-helpers";
 
 export const Profiles: React.FC<{ restaurant: IRespone<HeaderProps> }> = ({
   restaurant,

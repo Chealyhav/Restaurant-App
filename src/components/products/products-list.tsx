@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Products } from "./products";
 import { ProductPopup } from "./products-popup";
-import { ProductPopupProps } from "@/app/api/interface";
+import { ProductPopupProps } from "@/api/interface";
 
 export const ProductList: React.FC<ProductPopupProps> = ({
   product,
